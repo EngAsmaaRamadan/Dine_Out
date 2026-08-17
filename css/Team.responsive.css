@@ -1,0 +1,55 @@
+@media (max-width: 1300px){
+	#Team .container .row .item {
+		width: 280px;
+    	margin: auto;
+    	margin-bottom: 55px;
+	}
+
+	#Team .container .row :last-child .item{
+		margin-bottom: 70px;
+	}
+
+	#Team .container .row .p-item{
+		padding: 8px 20px;
+		height: 24%;
+	}
+
+	#Team .container .row .item:hover .p-item {
+	    bottom: 3%;
+	}
+
+
+	#Team .container .row .p-item p{
+		font-size: 21px;
+	}
+}
+
+@media (min-width: 371px) and (max-width: 1300px){
+	#Team .container .row .p-item p{
+		font-size: 22px;
+	}
+}
+
+@media (min-width: 577px) and (max-width: 1300px){}
+
+@media (min-width: 769px) and (max-width: 1300px){
+	#Team .container .row .item{
+		width: initial;
+	}
+
+	#Team .container .row .p-item p{
+		font-size: 17px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1300px){
+	#Team .container .row .item {
+        width: 280px;
+    }
+
+    #Team .container .row .p-item p {
+        font-size: 23px;
+    }
+}
+
+@media (min-width: 1181px) and (max-width: 1300px){}

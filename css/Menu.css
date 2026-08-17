@@ -1,0 +1,234 @@
+#Menu{
+    margin-bottom: 25px;
+}
+
+#Menu .title .lines{
+    margin-bottom: 48px;
+}
+
+#Menu .title .lines::before, #Menu .title .lines::after{
+    width: 7%;
+}
+
+.table-responsive{
+    padding-left: 0;
+}
+
+#Menu .row .nav-pills .nav-link, .nav-pills .show>.nav-link{
+    background: radial-gradient(#2c5364,#203a43,#0f2027 );
+    border: 1px solid #fff;
+}
+#Menu .row .nav-pills
+{
+    height: stretch;
+}
+
+#Menu .row .nav-pills .nav-link{
+    width: 85px;
+    border-radius: 0;
+}
+
+#Menu .row .nav-pills .nav-link::after{
+    content: "";
+    transition-duration: 0.5s;
+    border: 10px solid transparent;
+    border-right-width: 0;
+    border-right-color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+
+#Menu .row .nav-pills .nav-link.active::after{
+    border-right-width: 10px;
+}
+
+#Menu .row .nav-pills {
+    display: flex;
+    flex-direction: column;
+}
+
+#Menu .row .nav-pills :first-child{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+#Menu .row .nav-pills :last-child{
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#Menu .row .nav-pills .nav-link{
+    padding-inline: 15px;
+}
+
+#Menu .row .nav-pills .nav-link img{
+    width: 50px;
+    display: block;
+    margin: auto;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    margin-inline: auto;
+    height: 50px;
+    transform: scale(0.7);
+    transition-duration: 0.5s;
+}
+
+#Menu .row .nav-pills .nav-link.active img{
+    transform: scale(1.0);
+}
+
+#Menu .row .nav-pills .nav-link h4{
+    letter-spacing: 0;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+:focus-visible{
+    outline: none;
+}
+
+.tab-content .tab-pane .row {
+    margin-bottom: 50px;
+}
+
+.tab-content .tab-pane .row .item{
+    width: 280px;
+    border: 2px solid var(--main-color);
+    color: #fff;
+    border-radius: 10px;
+    padding: 8px 15px;
+    transition-duration: 1s;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.tab-content .tab-pane.show .row .item{
+    opacity: 1;
+    margin: auto;
+}
+
+.tab-content .tab-pane .row .item:hover{
+    box-shadow:0 5px #f1b60166, 0 10px #f1b6014d, 0 15px #f1b60133, 0 20px #f1b6011a, 0 25px #f1b6010d, -5px 5px 40px #f1b60166;
+    transform: translateY(-10px);
+}
+
+.tab-content .tab-pane .row .item img{
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+
+.tab-content .tab-pane .row .item img,
+.tab-content .tab-pane .row .item h3{
+    transform: scale(0);
+    letter-spacing: 0;
+    transition-duration: 1s;
+}
+
+.tab-content .tab-pane.show .row .item img,
+.tab-content .tab-pane.show .row .item h3{
+    transform: scale(1.0);
+}
+
+.tab-content .tab-pane .row .item .info .item-inside {
+    column-gap: 45px;
+}
+
+.tab-content .tab-pane .row .item .info .item-inside p.type{
+    font-weight: 500;
+}
+
+.tab-content .tab-pane .row .item .info .item-inside p.type{
+    transform: translateX(-70px);
+    transition-duration: 1s;
+}
+
+.tab-content .tab-pane.show .row .item .info .item-inside p.type{
+    transform: translateX(0);
+}
+
+.tab-content .tab-pane .row .item .info .item-inside p.value{
+    color: #c1c1c1;
+    transform: translateX(-20px);
+    transition-duration: 0.5s;
+    opacity: 0;
+    transition-delay: 0.3s;
+}
+
+.tab-content .tab-pane.show .row .item .info .item-inside p.value{
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.tab-content .tab-pane.show .row .item .info .item-inside p.value.regular-text{
+        padding-inline: 7px 8px;
+    }
+
+.tab-content .tab-pane .row .item .info .item-inside p.value i{
+    color: var(--main-color);
+    font-size: 12px;
+    position: relative;
+}
+/*imp note the idea of moving is transform translateX for all items i after the first i and delay increased by half of transition duration of the first item of i*/
+.tab-content .tab-pane .row .item .info .item-inside p.value i:nth-of-type(1){
+    transition-duration: 1s;
+    opacity: 0;
+    transition-delay: 0.5s;
+}
+
+.tab-content .tab-pane.show .row .item .info .item-inside p.value i:nth-of-type(1){
+    opacity: 1;
+}
+
+.tab-content .tab-pane .row .item .info .item-inside p.value i:nth-of-type(2){
+    transform: translateX(-19px);
+    transition-duration: 1s;
+    opacity: 0;
+    transition-delay: 1s;
+}
+
+.tab-content .tab-pane.show .row .item .info .item-inside p.value i:nth-of-type(2){
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.tab-content .tab-pane .row .item .info .item-inside p.value i:nth-of-type(3){
+    transform: translateX(-39px);
+    transition-duration: 1s;
+    opacity: 0;
+    transition-delay: 1.5s;
+}
+
+.tab-content .tab-pane.show .row .item .info .item-inside p.value i:nth-of-type(3){
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.tab-content .tab-pane .row .item .info .item-inside p.value i:nth-of-type(4){
+    transform: translateX(-58px);
+    transition-duration: 1s;
+    opacity: 0;
+    transition-delay: 2s;
+}
+
+.tab-content .tab-pane.show .row .item .info .item-inside p.value i:nth-of-type(4){
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.tab-content .tab-pane .row .item .info .item-inside p.value i:nth-of-type(5){
+    transform: translateX(-77px);
+    transition-duration: 1s;
+    opacity: 0;
+    transition-delay: 2.5s;
+}
+
+.tab-content .tab-pane.show .row .item .info .item-inside p.value i:nth-of-type(5){
+    transform: translateX(0);
+    opacity: 1;
+}
+.tab-content .tab-pane .row .item .info .item-inside p.value sup{
+    color: var(--main-color);
+}

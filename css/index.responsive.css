@@ -1,0 +1,85 @@
+/*this file for the elements that out of the pages*/
+@media (max-width: 1300px){
+	::-webkit-scrollbar{
+    	display: none;
+	}
+
+	.before-about .icon img{
+	    width: 40px;
+	    height: 40px;
+	    max-width: initial;
+	}
+
+	section .title{
+		padding-bottom: 45px;
+	}
+
+	section .title h4{
+		font-size: 20px;
+	}
+
+	section .title h2{
+		font-size: 35px;
+		margin-bottom: 10px;
+	}
+
+	section .title  .lines img{
+		width: 15%;
+		margin-inline: 10px;
+	}
+
+	section .title .lines::before, section .title .lines::after{
+		width: 15%;
+	}
+
+	footer p{
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 371px) and (max-width: 1300px){
+}
+
+@media (min-width: 577px) and (max-width: 1300px){
+	section .title  .lines img{
+		width: 15%;
+	}
+
+	section .title .lines::before, section .title .lines::after{
+		width: 10%;
+	}
+
+	footer p{
+		font-size: 15px;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 1300px){
+	section .title .lines img {
+        width: 11%;
+    }
+
+    footer p{
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1300px){
+	section .title .lines img{
+		width: 8%;
+	}
+
+	section .title .lines::before, section .title .lines::after{
+		width: 10%;
+	}
+}
+
+@media (min-width: 1181px) and (max-width: 1300px){
+	section .title  .lines img{
+		width: 7%;
+	}
+
+	section .title .lines::before, section .title .lines::after {
+        width: 10%;
+    }
+}

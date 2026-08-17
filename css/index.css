@@ -1,0 +1,52 @@
+/*
+new note -->
+    ::-webkit-scrollbar-thumb the draggable scrolling handle.(that i scroll by it)
+    ::-webkit-scrollbar-track the track (progress bar) of the scrollbar.
+*/
+/*this file for the elements that out of the pages*/
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--main-color);
+    /*background: linear-gradient(to right,var(--main-color),#203a43,#0f2027);*/
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: linear-gradient(to right,#2c5364,#203a43,#0f2027 );
+}
+
+.before-about .icon{
+    background: radial-gradient(#2c5364,#203a43,#0f2027 );
+    border: 1px solid #fff;
+}
+
+.before-about .icon:first-child{
+    border-left: none;
+}
+
+.before-about .icon:last-child{
+    border-right: none;
+}
+
+.before-about .icon img{
+    display: block;
+    margin: auto;
+    max-width: 32%;
+}
+
+.before-about .icon h4{
+    letter-spacing: 0;
+}
+
+footer{
+    background-color: #333;
+}
+
+footer p span{
+    font-weight: 700;
+    color:var(--main-color);
+}

@@ -1,0 +1,189 @@
+@media (max-width: 1300px){
+	#Menu{
+		margin-bottom: 48px;
+	}
+
+	#Menu .title {
+		margin-bottom: 48px;
+	}
+
+	#Menu .title .lines img{
+		width: 16%;
+	}
+
+	#Menu .title .lines::before, #Menu .title .lines::after{
+		width: 16%;
+	}
+
+    .table-responsive{
+    	padding-inline: 0;
+    }
+
+	#Menu .row .nav-pills{/*problem of how to make it as row not column , solving by do it in css like first time not by bootstrap*/
+		flex-direction: row;
+		margin: 0;
+		width: max-content;
+	}/*problem in the space in end without padding or margin and height in it, solving by remove padding and margin of nav-pills in bootstrap and table-responsive*/
+
+	#Menu .row .nav-pills :first-child {
+	    border-bottom-left-radius: 5px;
+	    border-top-left-radius: 5px;
+	    border-bottom-right-radius: 0;
+	    border-top-right-radius: 0;
+	}
+
+	#Menu .row .nav-pills :last-child {
+	    border-bottom-right-radius: 5px;
+	    border-top-right-radius: 5px;
+	    border-bottom-left-radius: 0;
+	    border-top-left-radius: 0;
+	}
+
+	#Menu .row .nav-pills .nav-link::after{
+		top: initial;
+		bottom: 0;
+    	transform: translate(-50%,50%);
+    	right: 25%;
+    	border-right-color:transparent;
+    	border-bottom-color:#fff;
+    	border-right-width: 10px;
+	}
+
+	#Menu .row .nav-pills .nav-link.active::after{
+		transform: translate(-50%,0%);
+		border-bottom-width: 10px;
+	}
+
+	.tab-content .tab-pane.show .row .item .info .item-inside p.value.regular-text{
+		padding-inline: 5px 8px;
+	}
+
+	.tab-content .tab-pane .row .item .info .item-inside p.value{
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 371px) and (max-width: 1300px){
+	#Menu{
+		margin-bottom: 0px;
+	}
+
+	#Menu .tab-pane .row {
+		padding-bottom: 48px;
+	}
+}
+
+@media (min-width: 577px) and (max-width: 1300px){
+	#Menu .title .lines img {
+        width: 15%;
+    }
+
+	#Menu .title .lines::before, #Menu .title .lines::after{
+		width: 12%;
+	}
+	#Menu .row .nav-pills{
+		margin: auto;
+	}
+/*
+	.tab-content .tab-pane .row .item .info .item-inside p.value{
+		font-size: 16px;
+	}*/
+
+	.tab-content .tab-pane .row .item .info .item-inside p.value i{
+		font-size: 11px;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 1300px){
+	#Menu .title .lines img {
+        width: 11%;
+    }
+
+	.tab-content .tab-pane .row .item{
+		width: initial;
+	}
+
+	.tab-content .tab-pane .row .item .info .item-inside {
+	    column-gap: 38px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1300px){
+	#Menu .title .lines img {
+        width: 8%;
+    }
+
+	#Menu .title .lines::before, #Menu .title .lines::after{
+		width: 11%;
+	}
+
+	.table-responsive{
+		overflow: initial;
+	}
+
+	#Menu .row .nav-pills{
+		flex-direction: column;
+		height: stretch;
+	}
+
+	#Menu .row .nav-pills .nav-link::after{
+		top: 50%;
+        bottom: initial;
+        right: 0;
+        border-right-color: #fff;
+        border-bottom-color: transparent;
+        transform: translate(50%, -50%);
+	}
+
+	#Menu .row .nav-pills .nav-link.active::after{
+		transform: translate(0%, -50%);
+	}
+
+	#Menu .row .nav-pills :first-child{
+		border-bottom-left-radius: 0px;
+		border-top-right-radius: 5px;
+	}
+
+	#Menu .row .nav-pills :last-child{
+		border-bottom-right-radius: 5px;
+		border-bottom-left-radius: 5px;
+		border-top-right-radius: 0px;
+	}
+
+
+	#Menu .tab-pane .row {
+		padding-bottom: 65px;
+	}
+
+	.tab-content .tab-pane .row .item .info .item-inside {
+        column-gap: 30px;
+    }
+
+
+	.tab-content .tab-pane.show .row .item .info .item-inside p.type{
+		font-size: 14px;
+	}
+
+	.tab-content .tab-pane .row .item .info .item-inside p.value i {
+        font-size: 8px;
+    }
+}
+
+@media (min-width: 1181px) and (max-width: 1300px){
+	#Menu .title .lines img {
+        width: 7%;
+    }
+    
+	.tab-content .tab-pane .row .item .info .item-inside {
+        column-gap: 45px;
+    }
+
+    .tab-content .tab-pane#v-pills-Drinks .row .item img{
+    	margin-bottom: 25px;
+    }
+
+    #Menu .tab-pane .row {
+        padding-bottom: 30px;
+    }
+    
+}

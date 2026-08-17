@@ -1,0 +1,306 @@
+@media (max-width: 1300px){
+	header nav .container{
+		padding-block: 25px;
+	}
+
+	header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(1){
+		background-size: cover;
+	}
+
+	header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(1) .bg_scale{
+		background-size: cover;
+	}
+
+	header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(1) .caption h2 {
+		font-size: 40px;
+	}
+
+	header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(1) .caption p {
+	    width: 100%;
+	    padding-inline: 0; 
+	    font-size: 12px;
+	}
+
+	header #carouselExampleCaptions .carousel-inner .carousel-item .caption a{
+		padding: 5px 16px;
+		font-size: 12px;
+	}
+
+	header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(2) .part{
+		margin-top: -15px;
+	}
+
+	header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(2) .pizza_text{
+		max-width: 40%;
+		transform: translateY(-315px);
+	}
+
+	header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(2).active .pizza_text{
+	    transform: translateY(32px);
+	}
+
+	header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(2) .caption .part p{
+		font-size: 12px;
+	}
+
+	header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(2) .caption h2 {
+        font-size: 55px;
+    }
+
+	header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(2) h4{
+		font-size: 25px;
+		margin-block: 24px;
+	}
+
+	header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(3) h3{
+		font-size: 20px;
+	}
+
+	header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(3) p{
+		font-size: 12px;
+    	padding-right: 5px;
+	}
+
+	header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(3) ul {
+	    column-gap: 68px;
+	}
+
+	header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(3) ul li{
+		width: 48px;
+	}
+
+	header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(3) .part:nth-of-type(2){
+		margin-top: 20px;
+	}
+
+	header #carouselExampleCaptions button.carousel-control-next,
+	header #carouselExampleCaptions button.carousel-control-prev{
+		width: 40px;
+    	height: 40px;
+    	bottom: 20px;
+	}
+
+	header #carouselExampleCaptions button.carousel-control-prev{
+		right: 90px;
+	}
+
+	header #carouselExampleCaptions button.carousel-control-next {
+	    right: 30px;
+	}
+
+	header #carouselExampleCaptions button i{
+		font-size: 15px;
+	}
+
+	header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(3) ul li h4{
+    	font-size: 20px;
+    }   
+}
+
+@media (min-width: 371px) and (max-width: 1300px){
+	header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(1) .caption h2 {
+        font-size: 50px;
+    }
+
+    header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(1) .caption p {
+        padding-inline: 18px;
+        font-size: 14px;
+    }
+
+    header #carouselExampleCaptions .carousel-inner .carousel-item .caption a{
+    	padding: 8px 24px;
+    	font-size: initial;
+    }
+
+    header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(2) .pizza_text {
+        max-width: 35%;
+    }
+
+    header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(2).active .pizza_text{
+    	transform: translateY(30px);
+    }
+
+    header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(2) .caption h2{
+    	font-size: 60px;
+    }
+
+    header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(2) .caption .part p {
+        font-size: 14px;
+    }
+
+    header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(2) h4{
+		margin-block: 16px;
+	}
+
+	header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(3) .part:nth-of-type(2) {
+        margin-top: 30px;
+    }
+
+	header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(3) h3 {
+        font-size: 25px;
+    }
+
+    header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(3) p {
+        font-size: 14px;
+    }
+
+    header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(3) ul {
+        column-gap: 97px;
+    }
+
+    header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(3) ul li {
+        width: 53px;
+    }
+
+}
+
+@media (min-width: 577px) and (max-width: 1300px){
+	header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(1) .caption h2 {
+        font-size: 60px;
+    }
+
+    header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(1) .caption p {
+        padding-inline: 10px;
+        width: 80%;
+    }
+
+    header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(2) .about-text{
+    	width: 75%;
+    	margin: auto;
+    }
+
+    header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(3) ul {
+        column-gap: 136px;
+    }
+
+    header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(3) ul li{
+    	width: 44px;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1300px){
+	header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(1) .caption h2 {
+        font-size: 70px;
+    }
+
+    header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(1) .caption p{
+    	width: 65%;
+    }
+
+    header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(2) .part {
+        margin-top: 25px;
+    }
+
+    header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(2) .part:last-child{
+    	margin-top: 0;
+    }
+
+    header #carouselExampleCaptions button.carousel-control-prev {
+        right: 130px;
+    }
+
+    header #carouselExampleCaptions button.carousel-control-next,
+    header #carouselExampleCaptions button.carousel-control-prev{
+    	width: 50px;
+        height: 50px;
+    }
+
+    header #carouselExampleCaptions button.carousel-control-next {
+        right: 50px;
+    }
+
+    header #carouselExampleCaptions button i {
+        font-size: 20px;
+    }
+
+    header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(2) .pizza_text{
+    	max-width: 50%;
+    }
+
+    header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(2) .about-text{
+    	width: 100%;
+    }
+
+    header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(3) .burger-img{
+    	max-width: 100%;
+    }
+
+    header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(3) ul {
+        column-gap: 75px;
+    }
+
+    header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(3) ul li{
+    	width: 40px;
+    }
+
+    header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(3) .part:nth-of-type(1){
+    	margin-top: 40px;
+    }
+
+    header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(3) .part:nth-of-type(2){
+    	margin-top: 35px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1300px){
+	header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(2) .part {
+        margin-top: 5px;
+    }
+
+    header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(2).active .pizza_text {
+        transform: translateY(32px);
+    }
+
+    header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(2) .caption .part p{
+    	width: 70%;
+    	margin: auto;
+    }
+
+    header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(3) .burger-img{
+    	max-width: 80%;
+    }
+
+    header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(3) .part:nth-of-type(2) {
+        margin-top: 25px;
+    }
+
+    header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(3).active p{
+    	width: 75%;
+    }
+
+    header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(3) ul {
+        column-gap: 85px;
+    }
+
+	header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(3) ul li {
+        width: 38px;
+    }
+
+    header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(3) ul li h4{
+    	font-size: 22px;
+    }    
+}
+
+@media (min-width: 1181px) and (max-width: 1300px){
+	header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(1) .caption p{
+		padding-inline: 0;
+		width: 50%;
+	}
+
+	header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(3) .part:nth-of-type(2) {
+        margin-top: 15px;
+    }
+
+	header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(3).active p {
+        width: 70%;
+    }
+
+	header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(3) ul{
+		column-gap: 100px;
+	}
+
+	header #carouselExampleCaptions .carousel-inner .carousel-item:nth-of-type(3) ul li{
+		width: 43px;
+	}
+}

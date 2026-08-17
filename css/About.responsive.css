@@ -1,0 +1,107 @@
+@media (max-width: 1300px){
+	
+
+	#About .container .row .part1 h3{
+		font-size: 16px;
+	}
+
+	#About .container .row .part1 p{
+		font-size: 12px;
+	}
+
+	#About .container .row .part1 .row :first-child .item{
+		margin-bottom: 4px;
+	}
+
+	#About .container .row .part1 .span-text{
+		font-size: 15px;
+	}
+
+	#About .container .row .part2 .item{
+		min-height: 200px;
+	}
+
+	#About .container .row .part2 .item h2 {
+        font-size: 22px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 371px) and (max-width: 1300px){
+		
+
+	#About .container .row .part1 h3 {
+        font-size: 20px;
+    }
+
+    #About .container .row .part1 .span-text{
+    	font-size: 18px;
+    }
+
+
+    #About .container .row .part1 .row :first-child .item{
+		margin-bottom: 15px;
+	}
+
+    #About .container .row .part2 .item {
+        min-height: 250px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1300px){
+	
+
+	#About .container .row .part1 h3 {
+        font-size: 25px;
+    }
+
+    #About .container .row .part1 p {
+        font-size: 16px;
+    }
+
+    #About .container .row .part2 .item {
+        min-height: 300px;
+    }
+
+    #About .container .row .part2 .item h2 {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1300px){
+	
+
+	#About .container .row .part1 h3 {
+        font-size: 20px;
+    }
+
+    #About .container .row .part1 p {
+        font-size: 12px;
+    }
+
+    #About .container .row .part1 .span-text {
+        font-size: 16px;
+    }
+
+    #About .container .row .part2 .item {
+        min-height: 250px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1300px){
+	#About .container .row .part1 .span-text {
+        font-size: 18px;
+    }
+    
+	#About .container .row .part2 .item h2 {
+        font-size: 27px;
+    }
+}
+
+@media (min-width: 1181px) and (max-width: 1300px){
+
+	#About .container .row .part2 .item h2 {
+        font-size: 28px;
+    }
+}

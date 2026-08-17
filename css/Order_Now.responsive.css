@@ -1,0 +1,58 @@
+@media (max-width: 1300px){
+	#Order_Now .container .row form{
+		width: 325px;
+		padding: 20px 25px 2px;
+	}
+
+	#Order_Now .container .row form h3{
+		font-size: 24px;
+		margin-top: 0;
+	}
+}
+
+@media (min-width: 371px) and (max-width: 1300px){
+	#Order_Now .container .row form{
+		width: 350px;
+	}
+
+	#Order_Now .container .row form h3{
+		font-size: 25px;
+	}
+}
+
+@media (min-width: 577px) and (max-width: 1300px){
+	#Order_Now .container .row form h3{
+		font-size: 27px;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 1300px){
+	#Order_Now .container .row form{
+		width: 335px;
+	}
+
+	#Order_Now .container .row form h3 {
+        font-size: 29px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1300px){
+	#Order_Now .container .row form {
+        width: 385px;
+    }
+
+    #Order_Now .container .row form h3 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1181px) and (max-width: 1300px){
+	#Order_Now .container .row form {
+        width: 460px;
+    }
+
+    #Order_Now .container .row form h3 {
+        font-size: 32px;
+        margin-top: 0;
+    }
+}

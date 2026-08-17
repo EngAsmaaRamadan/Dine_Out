@@ -1,0 +1,75 @@
+@keyframes animate_1{/*for first span in nav /*couldnt do it*/
+/*playing in transform in rotate and translate first make span 1 and 3 touch the edge of span 2 then make X character shape in to{}*/
+	from{
+		transform: rotate(15deg) translateY(5px);
+	}
+
+	to{
+		transform: rotate(45deg) translateX(8px) translateY(5px);
+	}
+}
+
+@keyframes animate_12{/*for second span in nav*/
+	from{
+		transform: rotate(-15deg) translateY(-5px);
+	}
+
+	to{
+		transform: rotate(-50deg) translateX(10px) translateY(-5px);
+	}
+}
+
+@keyframes animate_2{/*wheel animation for the img in second page in header*/
+	from{
+		transform: rotate(0deg);
+	}
+
+	to{
+		transform: rotate(-360deg);
+	}
+}
+
+@keyframes animate_3{/*for burger-img*/
+	from{
+		transform: translateY(0px);
+	}
+
+	to{
+		transform: translateY(-25px);
+	}
+
+}
+
+@keyframes animate_4 {
+    from {
+        transform: scaleX(0);
+    }
+    to {
+        transform: scaleX(1);
+    }
+}
+
+@keyframes animate_5{
+	0%{
+		transform: translateY(0px);
+		opacity: 0;
+	}
+
+	20%{
+		opacity: 1;
+		transform: translateY(-25px);
+	}
+
+	40%{
+		transform: translateY(0px);
+	}
+
+	60%{
+		transform: translateX(180%);
+	}
+
+	100%{
+		transform: translateX(180%);
+	}
+
+}

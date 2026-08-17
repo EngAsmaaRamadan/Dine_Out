@@ -1,0 +1,71 @@
+#About{
+    background: linear-gradient(to right,#2c5364,#203a43,#0f2027 );
+    color: #fff;
+}
+
+/*#About .button a::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 100%;
+    background-color: var(--main-color);
+    transition-duration: 1s;
+}
+
+#About .button a:hover::before{
+    right: 0%;
+}*/
+
+#About .container .row .part1 h4{
+    color: var(--main-color);
+}
+
+#About .container .row .part1 img{
+    display: block;
+    height: 25px;
+}
+
+#About .container .row .part1 h3{
+    font-weight: 500;
+    letter-spacing: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+#About .container .row .part1 .span-text{
+    font-family: "Dancing Script", cursive;
+    font-size: 20px;
+}
+
+#About .container .row .part2 .item{
+    background-image: url("../images/about-img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    min-height: 300px;
+}
+
+#About .container .row .part2 .item .square{
+    border: 4px solid var(--main-color);
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    animation-name: animate_2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#About .container .row .part2 .item h2{
+    font-size: 28px;
+    z-index: 2;
+    letter-spacing: 0;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 900;
+}
