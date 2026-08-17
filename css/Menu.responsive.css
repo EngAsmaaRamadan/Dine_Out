@@ -26,17 +26,11 @@
 	}/*problem in the space in end without padding or margin and height in it, solving by remove padding and margin of nav-pills in bootstrap and table-responsive*/
 
 	#Menu .row .nav-pills :first-child {
-	    border-bottom-left-radius: 5px;
-	    border-top-left-radius: 5px;
-	    border-bottom-right-radius: 0;
-	    border-top-right-radius: 0;
+	    border-radius: 5px 0 0 5px;
 	}
 
 	#Menu .row .nav-pills :last-child {
-	    border-bottom-right-radius: 5px;
-	    border-top-right-radius: 5px;
-	    border-bottom-left-radius: 0;
-	    border-top-left-radius: 0;
+	    border-radius: 0 5px 0 5px;
 	}
 
 	#Menu .row .nav-pills .nav-link::after{
@@ -84,11 +78,7 @@
 	#Menu .row .nav-pills{
 		margin: auto;
 	}
-/*
-	.tab-content .tab-pane .row .item .info .item-inside p.value{
-		font-size: 16px;
-	}*/
-
+	
 	.tab-content .tab-pane .row .item .info .item-inside p.value i{
 		font-size: 11px;
 	}

@@ -13,7 +13,7 @@
     }
 
 	#Testimonials .container .row .item{
-		width: 280px;
+		width: initial;
     	margin: auto;
 	}
 

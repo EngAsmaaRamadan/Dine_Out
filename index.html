@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- DRY code -->
+        <!-- alt is important SEO -->
         <meta charset="utf-8">
             <meta content="width=device-width, initial-scale=1" name="viewport">
                 <title>
@@ -33,9 +35,9 @@
         <header>
             <!-- new note z-index is z-{0-n1} -->
             <nav class="navbar navbar-dark bg-transparent position-absolute w-100">
-                <div class="container">
+                <div class="container py-3">
                     <a class="navbar-brand" href="#">
-                        <img alt="" src="images/logo.png"/>
+                        <img alt="logo" src="images/logo.png"/>
                     </a>
                     <button aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation" class="navbar-toggler d-flex flex-column" data-bs-target="#offcanvasDarkNavbar" data-bs-toggle="offcanvas" type="button">
                         <span>
@@ -47,7 +49,7 @@
                     </button>
                     <div aria-labelledby="offcanvasDarkNavbarLabel" class="offcanvas offcanvas-start text-bg-dark" id="offcanvasDarkNavbar" tabindex="-1">
                         <div class="offcanvas-header my-2">
-                            <img alt="" class="offcanvas-title" id="offcanvasDarkNavbarLabel" src="images/logo.png">
+                            <img alt="offcanvas" class="offcanvas-title" id="offcanvasDarkNavbarLabel" src="images/logo.png">
                                 <i aria-label="Close" class="fa-solid fa-xmark ms-auto btn-white-close fs-5" data-bs-dismiss="offcanvas">
                                 </i>
                             </img>
@@ -144,7 +146,7 @@
                                 <div class="row h-100 d-flex align-items-center">
                                     <div class="col-md-6 part col-12">
                                         <div class="item">
-                                            <img alt="" class="pizza_text position-relative" src="images/pizza.png">
+                                            <img alt="pizza" class="pizza_text position-relative" src="images/pizza.png">
                                                 <h2 class="mb-3 mb-xl-4">
                                                     BUY GET
                                                     <br>
@@ -156,7 +158,7 @@
                                                         Aliquam laoreet orci quis risus vulputate tempor Quisque aliquetmattis mattis tortor nibh cursus lorem
                                                     </p>
                                                     <h4 class="my-4">
-                                                        +02 010 94 8 91 010
+                                                        <a href="tel:+0201094891010">+02 010 94 8 91 010</a>
                                                     </h4>
                                                     <div class="button">
                                                     <a class="btn rounded-5 overflow-hidden position-relative" href="#About">
@@ -170,7 +172,7 @@
                                     </div>
                                     <div class="col-md-6 col-12 part d-none d-md-block">
                                         <div class="item">
-                                            <img alt="" class="moving-pizza d-none d-md-block img-fluid mt-4" src="images/pz.png">
+                                            <img alt="moving-pizza" class="moving-pizza d-none d-md-block img-fluid mt-4" src="images/pz.png">
                                         </div>
                                     </div>
                                 </div>
@@ -183,7 +185,7 @@
                                 <div class="row">
                                     <div class="col-md-6 col-12 part d-none d-md-block mt-0 mt-xl-5">
                                         <div class="item">
-                                            <img src="images/bg.png" class="burger-img" alt="">
+                                            <img src="images/bg.png" class="burger-img" alt="burger-img">
                                         </div>
                                     </div>
                                     <div class="col-md-6 part col-12 ps-md-0 d-flex flex-column justify-content-center">
@@ -193,15 +195,15 @@
                                             <p class="fw-light my-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
                                             <ul class="list-unstyled d-flex flex-row mb-3 mb-sm-4">
                                                 <li>
-                                                    <img src="images/icons/delicious_icon.png" class="img-fluid pb-3" alt="">
+                                                    <img src="images/icons/delicious_icon.png" class="img-fluid pb-3" alt="delicious">
                                                     <h4>Delicious</h4>
                                                 </li>
                                                 <li>
-                                                    <img src="images/icons/fresh_icon.png" class="img-fluid pb-3" alt="">
+                                                    <img src="images/icons/fresh_icon.png" class="img-fluid pb-3" alt="fresh">
                                                     <h4>Fresh</h4>
                                                 </li>
                                                 <li>
-                                                    <img src="images/icons/organic_icon.png" class="img-fluid pb-3" alt="">
+                                                    <img src="images/icons/organic_icon.png" class="img-fluid pb-3" alt="organic">
                                                     <h4>Organic</h4>
                                                 </li>
                                             </ul>
@@ -235,43 +237,43 @@
         <div class="before-about row flex-nowrap m-0">
             <div class="icon text-light text-center col  d-flex flex-column justify-content-center">
                 <div class="item p-3">
-                <img src="images/icons/pizza-icon.png" alt="">
+                <img src="images/icons/pizza-icon.png" alt="pizza">
                 <h4 class="mt-3">Pizza</h4>
                 </div>
             </div>
             <div class="icon text-light text-center col  d-flex flex-column justify-content-center">
                 <div class="item p-3">
-                <img src="images/icons/hamburger-icon.png" alt="">
+                <img src="images/icons/hamburger-icon.png" alt="hamburger">
                 <h4 class="mt-3">Burgers</h4>
                 </div>
             </div>
             <div class="icon text-light text-center col  d-flex flex-column justify-content-center">
                 <div class="item p-3">
-                <img src="images/icons/chicken-icon.png" alt="">
+                <img src="images/icons/chicken-icon.png" alt="chicken">
                 <h4 class="mt-3">Chicken</h4>
                 </div>
             </div>
             <div class="icon text-light text-center col  d-flex flex-column justify-content-center">
                 <div class="item p-3">
-                <img src="images/icons/taco-icon.png" alt="">
+                <img src="images/icons/taco-icon.png" alt="taco">
                 <h4 class="mt-3">Taco</h4>
                 </div>
             </div>
             <div class="icon text-light text-center col  d-flex flex-column justify-content-center">
                 <div class="item p-3">
-                <img src="images/icons/salad-icon.png" alt="">
+                <img src="images/icons/salad-icon.png" alt="salad">
                 <h4 class="mt-3">Salad</h4>
                 </div>
             </div>
             <div class="icon text-light text-center col  d-flex flex-column justify-content-center">
                 <div class="item p-3">
-                <img src="images/icons/fried-potatoes-icon.png" alt="">
+                <img src="images/icons/fried-potatoes-icon.png" alt="fried-potatoes">
                 <h4 class="mt-3">Fries</h4>
                 </div>
             </div>
             <div class="icon text-light text-center col  d-flex flex-column justify-content-center">
                 <div class="item p-3">
-                <img src="images/icons/drink-icon.png" alt="">
+                <img src="images/icons/drink-icon.png" alt="drink">
                 <h4 class="mt-3">Drinks</h4>
                 </div>
             </div>
@@ -283,7 +285,7 @@
                     <h4 class="mb-2">Our Story</h4>
                     <h2 class="fs-lg-1">About Us</h2>
                     <div class="lines d-flex justify-content-center">
-                    <img src="images/btm-style.png" alt="">
+                    <img src="images/btm-style.png" alt="btm-style">
                     </div>
                 </div>
                 <div class="row">
@@ -298,11 +300,11 @@
                                     <div class="item d-flex flex-column">
                                         
                                         <div class="icon d-flex column-gap-2 column-gap-lg-3 mb-4 align-items-center">
-                                        <img src="images/icons/check-icon.png" alt="">
+                                        <img src="images/icons/check-icon.png" alt="check">
                                         <span class="span-text">Quality products</span>
                                         </div>
                                         <div class="icon d-flex column-gap-2 column-gap-lg-3 mb-4 mb-xl-5 align-items-center">
-                                        <img src="images/icons/check-icon.png" alt="">
+                                        <img src="images/icons/check-icon.png" alt="check">
                                         <span class="span-text">World’s best Chef</span>
                                         </div>
                                     </div>
@@ -311,11 +313,11 @@
                                     <div class="item d-flex flex-column">
                                         <div class="icon d-flex column-gap-2 column-gap-lg-3 mb-4 align-items-center">
                                         
-                                        <img src="images/icons/check-icon.png" alt="">
+                                        <img src="images/icons/check-icon.png" alt="check">
                                         <span class="span-text">Fastest delivery</span>
                                         </div>
                                         <div class="icon d-flex column-gap-2 column-gap-lg-3 mb-4 align-items-center">
-                                        <img src="images/icons/check-icon.png" alt="">
+                                        <img src="images/icons/check-icon.png" alt="check">
                                         <span class="span-text">Great Location</span>
                                         </div>
                                     </div>
@@ -349,29 +351,29 @@
                 </div>
                 <div class="row mt-lg-5 mt-5">
                     <div class="col-md-3 col-12 col-sm-6 part">
-                        <div class="item py-3 mb-md-5" style="width: initial;">
-                            <img src="images/icons/one-icon.png" class=" mb-2" alt="">
+                        <div class="item py-3 mb-md-5">
+                            <img src="images/icons/one-icon.png" class=" mb-2" alt="one-icon">
                             <p class="fw-bold">20 <sup>+</sup></p>
                             <h5>Years Experience</h5>
                         </div>
                     </div>
                     <div class="col-md-3 col-12 col-sm-6 part">
-                        <div class="item py-3 mb-md-5" style="width: initial;">
-                            <img src="images/icons/food-icon.png" class=" mb-2" alt="">
+                        <div class="item py-3 mb-md-5">
+                            <img src="images/icons/food-icon.png" class=" mb-2" alt="food-icon">
                             <p class="fw-bold">56 <sup>+</sup></p>
                             <h5>Menu Variant</h5>
                         </div>
                     </div>
                     <div class="col-md-3 col-12 col-sm-6 part">
-                        <div class="item py-3 mb-md-5" style="width: initial;">
-                            <img src="images/icons/restaurant-location-icon.png" class=" mb-2" alt="">
+                        <div class="item py-3 mb-md-5">
+                            <img src="images/icons/restaurant-location-icon.png" class=" mb-2" alt="restaurant-location-icon restaurant location">
                             <p class="fw-bold">12 <sup>+</sup></p>
                             <h5>Restaurant Branch</h5>
                         </div>
                     </div>
                     <div class="col-md-3 col-12 col-sm-6 part">
                         <div class="item py-3 mb-md-5">
-                            <img src="images/icons/chef-icon.png" class=" mb-2" alt="">
+                            <img src="images/icons/chef-icon.png" class=" mb-2" alt="chef-icon">
                             <p class="fw-bold">24 <sup>+</sup></p>
                             <h5>Professional Chef</h5>
                         </div>
@@ -388,7 +390,7 @@
                     <h4 class="mb-2">Order Now</h4>
                     <h2 class="text-light fs-lg-1">Our Menu </h2>
                     <div class="lines d-flex justify-content-center">
-                    <img src="images/btm-style.png" alt="">
+                    <img src="images/btm-style.png" alt="btm-style">
                     </div>
                 </div>
             </div>
@@ -398,7 +400,7 @@
   
     <button class="position-relative overflow-hidden text-light text-center col nav-link active" id="v-pills-Pizza-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Pizza" type="button" role="tab" aria-controls="v-pills-Pizza" aria-selected="true">
                 
-                <img src="images/icons/pizza-icon.png" alt="">
+                <img src="images/icons/pizza-icon.png" alt="pizza-icon">
                 <h4 class="mt-1">Pizza</h4>
                 
             </button>
@@ -408,7 +410,7 @@
     
 <button class="position-relative overflow-hidden text-light text-center col nav-link" id="v-pills-Burgers-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Burgers" type="button" role="tab" aria-controls="v-pills-Burgers" aria-selected="false">
                 
-                <img src="images/icons/hamburger-icon.png" alt="">
+                <img src="images/icons/hamburger-icon.png" alt="hamburger-icon hamburger">
                 <h4 class="mt-1">Burgers</h4>
                 
             </button>
@@ -416,7 +418,7 @@
 
 <button class="position-relative overflow-hidden text-light text-center col nav-link" id="v-pills-Chicken-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Chicken" type="button" role="tab" aria-controls="v-pills-Chicken" aria-selected="false">
                 
-                <img src="images/icons/chicken-icon.png" alt="">
+                <img src="images/icons/chicken-icon.png" alt="chicken-icon chicken">
                 <h4 class="mt-1">Chicken</h4>
                 
             </button>
@@ -424,7 +426,7 @@
 
 <button class="position-relative overflow-hidden text-light text-center col nav-link" id="v-pills-Taco-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Taco" type="button" role="tab" aria-controls="v-pills-Taco" aria-selected="false">
                 
-                <img src="images/icons/taco-icon.png" alt="">
+                <img src="images/icons/taco-icon.png" alt="taco-icon taco">
                 <h4 class="mt-1">Taco</h4>
                 
             </button>
@@ -433,7 +435,7 @@
     
 <button class="position-relative overflow-hidden text-light text-center col nav-link" id="v-pills-Salad-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Salad" type="button" role="tab" aria-controls="v-pills-Salad" aria-selected="false">
                 
-                <img src="images/icons/salad-icon.png" alt="">
+                <img src="images/icons/salad-icon.png" alt="salad-icon salad">
                 <h4 class="mt-1">Salad</h4>
                 
             </button>
@@ -444,14 +446,14 @@
     
 <button class="position-relative overflow-hidden text-light text-center col nav-link" id="v-pills-Fries-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Fries" type="button" role="tab" aria-controls="v-pills-Fries" aria-selected="false">
                 
-                <img src="images/icons/fried-potatoes-icon.png" alt="">
+                <img src="images/icons/fried-potatoes-icon.png" alt="fried-potatoes-icon fried-potatoes">
                 <h4 class="mt-1">Fries</h4>
                 
             </button>
 
     <button class="position-relative overflow-hidden text-light text-center col nav-link" id="v-pills-Drinks-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Drinks" type="button" role="tab" aria-controls="v-pills-Fries" aria-selected="false">
                 
-                <img src="images/icons/drink-icon.png" alt="">
+                <img src="images/icons/drink-icon.png" alt="drink-icon drink">
                 <h4 class="mt-1">Drinks</h4>
                 
             </button>
@@ -463,7 +465,7 @@
           <div class="row">
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/pizza/1.png" alt="">
+                  <img src="images/menu/pizza/1.png" alt="pizza">
                   <h3 class="text-center mb-4">Pizza Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -496,7 +498,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/pizza/2.png" alt="">
+                  <img src="images/menu/pizza/2.png" alt="pizza">
                   <h3 class="text-center mb-4">Pizza Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -529,7 +531,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/pizza/3.png" alt="">
+                  <img src="images/menu/pizza/3.png" alt="pizza">
                   <h3 class="text-center mb-4">Pizza Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -562,7 +564,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/pizza/4.png" alt="">
+                  <img src="images/menu/pizza/4.png" alt="pizza">
                   <h3 class="text-center mb-4">Pizza Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -595,7 +597,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/pizza/5.png" alt="">
+                  <img src="images/menu/pizza/5.png" alt="pizza">
                   <h3 class="text-center mb-4">Pizza Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -628,7 +630,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/pizza/6.png" alt="">
+                  <img src="images/menu/pizza/6.png" alt="pizza">
                   <h3 class="text-center mb-4">Pizza Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -661,7 +663,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/pizza/7.png" alt="">
+                  <img src="images/menu/pizza/7.png" alt="pizza">
                   <h3 class="text-center mb-4">Pizza Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -694,7 +696,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/pizza/8.png" alt="">
+                  <img src="images/menu/pizza/8.png" alt="pizza">
                   <h3 class="text-center mb-4">Pizza Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -732,7 +734,7 @@
             <div class="row mb-0">
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/burger/1.png" alt="">
+                  <img src="images/menu/burger/1.png" alt="burger">
                   <h3 class="text-center mb-4">Burger Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -765,7 +767,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/burger/2.png" alt="">
+                  <img src="images/menu/burger/2.png" alt="burger">
                   <h3 class="text-center mb-4">Burger Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -798,7 +800,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/burger/3.png" alt="">
+                  <img src="images/menu/burger/3.png" alt="burger">
                   <h3 class="text-center mb-4">Burger Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -831,7 +833,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/burger/4.png" alt="">
+                  <img src="images/menu/burger/4.png" alt="burger">
                   <h3 class="text-center mb-4">Burger Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -864,7 +866,7 @@
 
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/burger/5.png" alt="">
+                  <img src="images/menu/burger/5.png" alt="burger">
                   <h3 class="text-center mb-4">Burger Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -897,7 +899,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/burger/6.png" alt="">
+                  <img src="images/menu/burger/6.png" alt="burger">
                   <h3 class="text-center mb-4">Burger Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -930,7 +932,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/burger/7.png" alt="">
+                  <img src="images/menu/burger/7.png" alt="burger">
                   <h3 class="text-center mb-4">Burger Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -963,7 +965,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/burger/8.png" alt="">
+                  <img src="images/menu/burger/8.png" alt="burger">
                   <h3 class="text-center mb-4">Burger Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -1003,7 +1005,7 @@
             <div class="row mb-0">
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/chicken/1.png" alt="">
+                  <img src="images/menu/chicken/1.png" alt="chicken">
                   <h3 class="text-center mb-4">Chicken Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -1036,7 +1038,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/chicken/2.png" alt="">
+                  <img src="images/menu/chicken/2.png" alt="chicken">
                   <h3 class="text-center mb-4">Chicken Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -1069,7 +1071,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/chicken/3.png" alt="">
+                  <img src="images/menu/chicken/3.png" alt="chicken">
                   <h3 class="text-center mb-4">Chicken Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -1102,7 +1104,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/chicken/4.png" alt="">
+                  <img src="images/menu/chicken/4.png" alt="chicken">
                   <h3 class="text-center mb-4">Chicken Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -1136,7 +1138,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/chicken/5.png" alt="">
+                  <img src="images/menu/chicken/5.png" alt="chicken">
                   <h3 class="text-center mb-4">Chicken Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -1169,7 +1171,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/chicken/6.png" alt="">
+                  <img src="images/menu/chicken/6.png" alt="chicken">
                   <h3 class="text-center mb-4">Chicken Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -1202,7 +1204,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/chicken/7.png" alt="">
+                  <img src="images/menu/chicken/7.png" alt="chicken">
                   <h3 class="text-center mb-4">Chicken Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -1235,7 +1237,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/chicken/8.png" alt="">
+                  <img src="images/menu/chicken/8.png" alt="chicken">
                   <h3 class="text-center mb-4">Chicken Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -1274,7 +1276,7 @@
             <div class="row mb-0">
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/taco/1.png" alt="">
+                  <img src="images/menu/taco/1.png" alt="taco">
                   <h3 class="text-center mb-4">Taco Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -1307,7 +1309,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/taco/2.png" alt="">
+                  <img src="images/menu/taco/2.png" alt="taco">
                   <h3 class="text-center mb-4">Taco Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -1340,7 +1342,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/taco/3.png" alt="">
+                  <img src="images/menu/taco/3.png" alt="taco">
                   <h3 class="text-center mb-4">Taco Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -1373,7 +1375,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/taco/4.png" alt="">
+                  <img src="images/menu/taco/4.png" alt="taco">
                   <h3 class="text-center mb-4">Taco Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -1407,7 +1409,7 @@
 
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/taco/5.png" alt="">
+                  <img src="images/menu/taco/5.png" alt="taco">
                   <h3 class="text-center mb-4">Taco Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -1440,7 +1442,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/taco/6.png" alt="">
+                  <img src="images/menu/taco/6.png" alt="taco">
                   <h3 class="text-center mb-4">Taco Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -1473,7 +1475,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/taco/7.png" alt="">
+                  <img src="images/menu/taco/7.png" alt="taco">
                   <h3 class="text-center mb-4">Taco Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -1506,7 +1508,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/taco/8.png" alt="">
+                  <img src="images/menu/taco/8.png" alt="taco">
                   <h3 class="text-center mb-4">Taco Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -1544,7 +1546,7 @@
             <div class="row mb-0">
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/salad/1.png" alt="">
+                  <img src="images/menu/salad/1.png" alt="salad">
                   <h3 class="text-center mb-4">Salad Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -1577,7 +1579,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/salad/2.png" alt="">
+                  <img src="images/menu/salad/2.png" alt="salad">
                   <h3 class="text-center mb-4">Salad Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -1610,7 +1612,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/salad/3.png" alt="">
+                  <img src="images/menu/salad/3.png" alt="salad">
                   <h3 class="text-center mb-4">Salad Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -1643,7 +1645,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/salad/4.png" alt="">
+                  <img src="images/menu/salad/4.png" alt="salad">
                   <h3 class="text-center mb-4">Salad Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -1676,7 +1678,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/salad/5.png" alt="">
+                  <img src="images/menu/salad/5.png" alt="salad">
                   <h3 class="text-center mb-4">Salad Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -1709,7 +1711,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/salad/6.png" alt="">
+                  <img src="images/menu/salad/6.png" alt="salad">
                   <h3 class="text-center mb-4">Salad Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -1742,7 +1744,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/salad/7.png" alt="">
+                  <img src="images/menu/salad/7.png" alt="salad">
                   <h3 class="text-center mb-4">Salad Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -1775,7 +1777,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/salad/8.png" alt="">
+                  <img src="images/menu/salad/8.png" alt="salad">
                   <h3 class="text-center mb-4">Salad Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -1814,7 +1816,7 @@
             <div class="row mb-0">
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/fries/1.png" alt="">
+                  <img src="images/menu/fries/1.png" alt="fries">
                   <h3 class="text-center mb-4">Fries Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -1847,7 +1849,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/fries/2.png" alt="">
+                  <img src="images/menu/fries/2.png" alt="fries">
                   <h3 class="text-center mb-4">Fries Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -1880,7 +1882,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/fries/3.png" alt="">
+                  <img src="images/menu/fries/3.png" alt="fries">
                   <h3 class="text-center mb-4">Fries Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -1913,7 +1915,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/fries/4.png" alt="">
+                  <img src="images/menu/fries/4.png" alt="fries">
                   <h3 class="text-center mb-4">Fries Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -1946,7 +1948,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/fries/5.png" alt="">
+                  <img src="images/menu/fries/5.png" alt="fries">
                   <h3 class="text-center mb-4">Fries Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -1979,7 +1981,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/fries/6.png" alt="">
+                  <img src="images/menu/fries/6.png" alt="fries">
                   <h3 class="text-center mb-4">Fries Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -2012,7 +2014,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/fries/7.png" alt="">
+                  <img src="images/menu/fries/7.png" alt="fries">
                   <h3 class="text-center mb-4">Fries Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -2045,7 +2047,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/fries/8.png" alt="">
+                  <img src="images/menu/fries/8.png" alt="fries">
                   <h3 class="text-center mb-4">Fries Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -2084,7 +2086,7 @@
             <div class="row mb-0">
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/drink/1.png" alt="">
+                  <img src="images/menu/drink/1.png" alt="drink">
                   <h3 class="text-center mb-4">Drink Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -2117,7 +2119,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/drink/2.png" alt="">
+                  <img src="images/menu/drink/2.png" alt="drink">
                   <h3 class="text-center mb-4">Drink Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -2150,7 +2152,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/drink/3.png" alt="">
+                  <img src="images/menu/drink/3.png" alt="drink">
                   <h3 class="text-center mb-4">Drink Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -2183,7 +2185,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/drink/4.png" alt="">
+                  <img src="images/menu/drink/4.png" alt="drink">
                   <h3 class="text-center mb-4">Drink Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -2216,7 +2218,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/drink/5.png" alt="">
+                  <img src="images/menu/drink/5.png" alt="drink">
                   <h3 class="text-center mb-4">Drink Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -2249,7 +2251,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/drink/6.png" alt="">
+                  <img src="images/menu/drink/6.png" alt="drink">
                   <h3 class="text-center mb-4">Drink Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -2282,7 +2284,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/drink/7.png" alt="">
+                  <img src="images/menu/drink/7.png" alt="drink">
                   <h3 class="text-center mb-4">Drink Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -2315,7 +2317,7 @@
           
           <div class="col-lg-3 col-sm-6 col-md-4 mb-4">
               <div class="item">
-                  <img src="images/menu/drink/8.png" alt="">
+                  <img src="images/menu/drink/8.png" alt="drink">
                   <h3 class="text-center mb-4">Drink Item</h3>
                   <div class="info d-flex flex-column">
                       <div class="item-inside d-flex  align-items-center">
@@ -2352,8 +2354,6 @@
 </div>
 
                     </div>
-</div>
-            </div>
         </section>
 
  <section id="Team" class="pt-3 pb-5 pb-sm-5 pb-md-0 pb-lg-0 pt-lg-5 pb-xl-5">
@@ -2362,13 +2362,13 @@
                     <h4 class="mb-2">Team</h4>
                     <h2 class="fs-lg-1">Our Chefs</h2>
                     <div class="lines d-flex justify-content-center">
-                    <img src="images/btm-style.png" alt="">
+                    <img src="images/btm-style.png" alt="btm-style">
                     </div>
                 </div>
                 <div class="row text-light">
                     <div class="col-md-4 pb-3 pb-sm-3 pb-md-0">
                         <div class="item position-relative mb-xl-5">
-                            <img src="images/team/Chef1.png" class=" img-fluid" alt="">
+                            <img src="images/team/Chef1.png" class=" img-fluid" alt="Chef1">
                             <div class="p-item rounded-3">
                                 <p class="mb-1">Lucas Bennett</p>
                                 <h5>Senior Chef</h5>
@@ -2377,7 +2377,7 @@
                     </div>
                     <div class="col-md-4 pb-3 pb-sm-3 pb-md-0">
                         <div class="item position-relative mb-xl-5">
-                            <img src="images/team/Chef2.png" class=" img-fluid" alt="">
+                            <img src="images/team/Chef2.png" class=" img-fluid" alt="Chef2">
                             <div class="p-item rounded-3">
                                 <p class="mb-1">Andre Smith</p>
                                 <h5>Professor</h5>
@@ -2386,7 +2386,7 @@
                     </div>
                     <div class="col-md-4 pb-3 pb-sm-3 pb-md-0">
                         <div class="item position-relative mb-xl-5">
-                            <img src="images/team/Chef3.png" class=" img-fluid" alt="">
+                            <img src="images/team/Chef3.png" class=" img-fluid" alt="Chef3">
                             <div class="p-item rounded-3">
                                 <p class="mb-1">Nathaniel Hughes</p>
                                 <h5>Master Chef</h5>
@@ -2403,7 +2403,7 @@
                     <h4 class="mb-2">Delivery Now</h4>
                     <h2 class="fs-lg-1">Get Your Meal</h2>
                     <div class="lines d-flex justify-content-center">
-                    <img src="images/btm-style.png" alt="">
+                    <img src="images/btm-style.png" alt="btm-style">
                     </div>
                 </div>
                 <div class="row">
@@ -2438,7 +2438,7 @@
                     </div>
                     <div class="col-md-6 col-lg-6 d-none d-md-flex justify-content-center align-items-center">
                         <div class="item position-relative">
-                        <img src="images/delivery-man.png" class="img-fluid" alt="">
+                        <img src="images/delivery-man.png" class="img-fluid" alt="delivery-man">
                         </div>
                     </div>
                 </div>
