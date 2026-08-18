@@ -3,21 +3,6 @@
     color: #fff;
 }
 
-/*#About .button a::before{
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    right: 100%;
-    background-color: var(--main-color);
-    transition-duration: 1s;
-}
-
-#About .button a:hover::before{
-    right: 0%;
-}*/
-
 #About .container .row .part1 h4{
     color: var(--main-color);
 }
@@ -52,7 +37,7 @@
     position: absolute;
     width: 100px;
     height: 100px;
-    animation-name: animate_2;
+    animation-name: wheel;
     animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;

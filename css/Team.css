@@ -3,6 +3,7 @@
     margin: auto;
     transition-duration: 0.5s;
     border-radius: 10px;
+    perspective: 800px;
 }
 
 #Team .container .row .item:hover img{

@@ -107,7 +107,7 @@ button.button{
 }
 
 
-.button a::before{
+#Order_Now button.button a::before{
     content: none;
 }
 
@@ -151,9 +151,8 @@ button.button:hover span.text{
     position: absolute;
     left: 0;
     transform: translateX(0%);
-    animation-name: animate_5;
+    animation-name: delivery;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    /*animation-direction: alternate;*/
 }

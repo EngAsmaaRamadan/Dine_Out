@@ -94,7 +94,8 @@
 }
 
 .tab-content .tab-pane .row .item{
-    width: 280px;
+    width: initial;
+    max-width: 280px;
     border: 2px solid var(--main-color);
     color: #fff;
     border-radius: 10px;

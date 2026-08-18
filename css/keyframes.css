@@ -19,7 +19,7 @@
 	}
 }
 
-@keyframes animate_2{/*wheel animation for the img in second page in header*/
+@keyframes wheel{/*wheel animation for the img in second page in header*/
 	from{
 		transform: rotate(0deg);
 	}
@@ -49,7 +49,7 @@
     }
 }
 
-@keyframes animate_5{
+@keyframes delivery{
 	0%{
 		transform: translateY(0px);
 		opacity: 0;

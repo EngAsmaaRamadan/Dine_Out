@@ -56,11 +56,10 @@
 }
 
 #Testimonials .container .row .item{
-    /*background: linear-gradient(to right,#2c5364,#203a43,#0f2027);*/
     background: linear-gradient(to right,rgba(44, 83, 100,0.6),rgba(32, 58, 67, 0.6),rgba(15, 32, 39, 0.6));
     border-radius: 10px;
     opacity: 1;
-    width: 280px;
+    width: initial;
 }
 
 #Testimonials .container .row .item p{
