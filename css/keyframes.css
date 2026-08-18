@@ -1,20 +1,28 @@
-@keyframes animate_1{/*for first span in nav /*couldnt do it*/
+@keyframes span-top{/*for first span in nav /*couldnt do it*/
 /*playing in transform in rotate and translate first make span 1 and 3 touch the edge of span 2 then make X character shape in to{}*/
-	from{
+	0%{
+		transform: rotate(0deg) translate(0);
+	}
+
+	50%{
 		transform: rotate(15deg) translateY(5px);
 	}
 
-	to{
+	100%{
 		transform: rotate(45deg) translateX(8px) translateY(5px);
 	}
 }
 
-@keyframes animate_12{/*for second span in nav*/
-	from{
+@keyframes span-bottom{/*for second span in nav*/
+	0%{
+		transform: rotate(0deg) translate(0);
+	}
+
+	50%{
 		transform: rotate(-15deg) translateY(-5px);
 	}
 
-	to{
+	100%{
 		transform: rotate(-50deg) translateX(10px) translateY(-5px);
 	}
 }

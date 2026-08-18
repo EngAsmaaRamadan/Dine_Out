@@ -81,7 +81,7 @@ section .title h4{
 
 section .title h2{
     font-weight: 500;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", "sans-serif";
     letter-spacing: 0;
     font-size: 40px;
     margin-bottom: 10px;

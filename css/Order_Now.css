@@ -134,11 +134,6 @@ button.button a{
    letter-spacing: 1.5px;
 }
 
-
-button.button:hover{
-    
-}
-
 button.button:hover a{
     font-weight: 500;
 }

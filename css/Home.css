@@ -32,33 +32,25 @@ header nav .navbar-toggler:focus{
     box-shadow: none;
 }
 
-header nav .navbar-toggler:has(+ .offcanvas.show) span:nth-of-type(2) {/*important note this is how to select the previous sibling (previous:has(+ next))*/
+header nav .offcanvas.show+.navbar-toggler span:nth-of-type(2) {/*important note this is how to select the previous sibling (previous:has(+ next))*/
     opacity: 0;
 }
 
-header nav .navbar-toggler:has(+ .offcanvas.show) span:nth-of-type(1){
-    position: relative;
-    top: 0;
-    transform: rotate(0deg) translate(0);
-    animation-name: animate_1;
+header nav .offcanvas.show+.navbar-toggler span:nth-of-type(1){
+    animation-name: span-top;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
+    animation-delay: 0.5s;
     animation-duration: 1s;
 
 }
-header nav .navbar-toggler span:nth-of-type(1){
-    transform: rotate(0deg) translate(0);
-}
 
-header nav .navbar-toggler span:nth-of-type(3){
-    transform: rotate(0deg) translate(0);
-}
-
-header nav .navbar-toggler:has(+ .offcanvas.show) span:nth-of-type(3){
-    animation-name: animate_12;
+header nav .offcanvas.show+.navbar-toggler span:nth-of-type(3){
+    animation-name: span-bottom;
     animation-fill-mode: forwards;
     animation-timing-function: linear;
     animation-duration: 1s;
+    animation-delay: 0.5s;
 }
 
 header nav .navbar-toggler span{

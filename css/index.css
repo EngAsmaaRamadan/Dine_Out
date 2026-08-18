@@ -3,7 +3,7 @@ new note -->
     ::-webkit-scrollbar-thumb the draggable scrolling handle.(that i scroll by it)
     ::-webkit-scrollbar-track the track (progress bar) of the scrollbar.
 */
-/*this file for the elements that out of the pages*/
+/*this file for the elements that out of the sections*/
 
 ::-webkit-scrollbar{
     width: 15px;
@@ -11,7 +11,6 @@ new note -->
 
 ::-webkit-scrollbar-thumb{
     background: var(--main-color);
-    /*background: linear-gradient(to right,var(--main-color),#203a43,#0f2027);*/
     border-radius: 10px;
 }
 
